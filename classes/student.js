@@ -7,6 +7,9 @@ class Student extends Person {
         this.id = null;
         this.setDateOfBirth(null);
     } 
+    getName() {
+        return this.name
+    } 
     setId(id) {
         if (this.id === null) {
             this.id = id;

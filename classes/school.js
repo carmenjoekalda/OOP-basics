@@ -6,6 +6,9 @@ class School {
         this.courses = [];
         this.students = [];  
     }
+    getName() {
+        return this.name
+    } 
     addCourse(course) {
         if (!this.courses.includes(course)) {
             this.courses.push(course);
@@ -37,4 +40,4 @@ class School {
     }
 } 
 
-module.exports = School
+module.exports = School;

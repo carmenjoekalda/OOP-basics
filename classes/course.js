@@ -3,6 +3,9 @@ class Course {
         this.name = name;
         this.grades = []; 
     } 
+    getName() {
+        return this.name
+    } 
     getGrades(student, grade) {
         return this.grades
     } 
